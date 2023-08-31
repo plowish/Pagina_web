@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Lab.Elementos Programables</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Practica con Arduino</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src= "assets/Diego.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Diego Alonso Diaz Palacios</div>
+                                <div class="text-muted">Ingenieria en Sistemas Computacionales</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 31,2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/encabezado.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta practica de Arduino se elaboraron 18 armados,en los cuales se pudo observar el funcionamiento tanto de leds,push botons y contadores. Ademas de que tambien se utilizo la plataforma Tinkercad como apoyo para poder observar en linea el funcinamiento de los armados,ademas de que tambien se proporciono el codigo.</p>
+                        
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Arduino ha emergido como una herramienta revolucionaria en el campo de la electrónica y la programación, desempeñando un papel fundamental en la democratización de la innovación tecnológica. Es mucho más que una simple plataforma de prototipado; es un catalizador que ha permitido que personas de todos los niveles de habilidad participen activamente en la creación de dispositivos inteligentes y soluciones personalizadas.</p>
+                        <p class="fs-6 mb-4">Arduino ha redefinido la forma en que las personas se involucran con la tecnología, permitiendo a individuos de diversos ámbitos transformar sus ideas en realidades tangibles. Su accesibilidad, flexibilidad y comunidad vibrante continúan desempeñando un papel crucial en la innovación tecnológica en la actualidad.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Se utilizo el software de Tinkercad,Protoboard,Arduino,Cables,Leds, Botone, Display 7 segmentos, Resistencias.</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p clas="fs-6 mb-4">Es importante señalar que para la construcción de los esquemas de conexión y la obtención de códigos, utilicé la plataforma Tinkercad. A través de esta herramienta, generé esquemas detallados que especificaban la configuración precisa de cada componente con respecto a la placa Arduino. Este proceso fue esencial para prevenir posibles problemas eléctricos y garantizar la coherencia del sistema.</p>
+                        <p clas="fs-6 mb-4">Al inicio, los primeros esquemas de armado en Tinkercad fueron sencillos, pero conforme se iba avanzando con los circuitos, iba pidiendo más cables, LEDs, botones; en sí, variaban los circuitos, unos con otros. Algunos utilizaban las mismas bases, pero otros eran completamente diferentes entre sí. Aunque no hubo mucha dificultad para su armado, se realizaron 18 armados de circuitos,en los cuales se utilizó el software de Tinkercad para poder observar el funcionamiento de los armados.</p>
+                        <p clas="fs-6 mb-4">Algunos de los armados que se realizaron fueron los siguientes:</p>
+                        <p clas="fs-6 mb-4">1.-Compuerta AND y OR con botones y led</p>
+                        <p clas="fs-6 mb-4">2.-Contador digital</p>
+                        <p clas="fs-6 mb-4">3.-Contador leds</p>
+                    
+                        
+                        <p id="simulacion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                        <p class="fs-6 mb-4">En la simulación, se utilizó el software Tinkercad para realizar las conexiones en la computadora. Esto permitió observar cómo irían las conexiones de cada armado, evitando así cualquier tipo de errores. Además, también se pudo observar el código necesario para llevar a cabo dichas acciones en cada circuito.</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/simulaciones.jpg" alt="..." /></figure>
+            
+                        <p id="construccion">
+                        <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                        <p class="fs-6 mb-4">Es importante señalar que para la construcción de los esquemas de conexión y la obtención de códigos, utilicé la plataforma Tinkercad. A través de esta herramienta, generé esquemas detallados que especificaban la configuración precisa de cada componente con respecto a la placa Arduino. Este proceso fue esencial para prevenir posibles problemas eléctricos y garantizar la coherencia del sistema.</p>
+                        <p class="fs-6 mb-4">Posteriormente, siguiendo los esquemas delineados en Tinkercad, procedí a la etapa de construcción. Cada proyecto tenía su propia complejidad y requería un enfoque preciso. Un ejemplo inicial fue la creación del contador digital, donde tuve algunos problemas, ya que el contador que tenía no funcionaba, porque era tipo BCD, y se necesitaba uno de tipo BAC, pero logré conseguirlo, lo cambié y funcionó. También era necesario hacer las conexiones cuidadosamente. En cuanto a los demás armados, no tuve ningún inconveniente. Todos funcionaron de manera correcta. Además, todos los armados cuentan con su respectivo código en Arduino.</p>
+                        <p class ="fs-6 mb-4">Otro armado que realicé fueron las compuertas AND y OR. En estos no tuve problemas, solo fue necesario conectar de manera correcta y cargar el código en la placa Arduino Uno. Se pudo observar sin ningún problema el funcionamiento correcto de los botones y los LEDs.</p>  
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Los resultados se obtuvieron mediante la construcción correcta de los circuitos. En total, como mencioné antes, son 18, algunos más complejos que otros, pero no difíciles. A continuación, se presentan los 18 circuitos en video, enumerados del 0 al 17. Aquí están los videos:</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_0.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_1.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_2.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_3.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_4.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_5.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_6.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_7.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_8.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_9.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_10.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_11.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_12.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_13.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_14.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_15.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_16.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/vid_17.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">En conclusión, dominar la habilidad de diseñar y programar circuitos en Arduino conlleva una serie de beneficios significativos en el mundo actual centrado en la tecnología. Esta destreza no solo permite a las personas comprender y manipular el funcionamiento interno de dispositivos electrónicos, sino que también les capacita para crear soluciones innovadoras y automatizadas para una amplia gama de aplicaciones. No fue sencillo hacer todos los circuitos, pero fue divertido, además de que sé conoció más de como deben ir conectadas las cosas.</p>
+                        
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">¿Sabes qué es un Arduino y para qué sirve? (2017, febrero 27). Fundación Aquae. https://www.fundacionaquae.org/wiki/sabes-arduino-sirve/</p>
+                        <p class="fs-6 mb-4">Tinkercad. (s/f). Tinkercad. Recuperado el 30 de agosto de 2023, de https://www.tinkercad.com/classrooms/b5s2eOYhgMn/activities/kxX9nVrX23z</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar codigos de 0 a 17 de arduino: https://drive.google.com/drive/folders/1gqDOrwEvNbusF9ICd6gemlXyI9pWmalq?usp=drive_link</p>
+
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
