@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 1 | Ibero Puebla</title>
+        <title>Práctica 4 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Practica con Attiny85 y pantalla OLED</h1>
+                        <h1 class="fw-bolder mb-1">Practica con Attiny85,pantalla OLED y Sensores</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src= "assets/Diego.jpg" alt="..." />
@@ -78,7 +78,7 @@
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">En esta practica de Arduino se elaboraron 18 armados,en los cuales se pudo observar el funcionamiento tanto de leds,push botons y contadores. Ademas de que tambien se utilizo la plataforma Tinkercad como apoyo para poder observar en linea el funcinamiento de los armados,ademas de que tambien se proporciono el codigo.</p>
+                        <p class="fs-6 mb-4">En esta practica de Arduino se elaboraron 6 armados utilizando el atttiny85, el display OLED, 2 sensores analogicos los cuales fueron un sensor de sonido y un sensor joystick,de los digitales fue un sensor ultrasonico y un sensor infrarrojo pasivo.</p>
                         
                         
                         <p id="intro">
@@ -88,20 +88,52 @@
                         
                         <p id="materiales">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Materiales -</h2>
-                            <p class="fs-6 mb-4">Se utilizó el software de Tinkercad, Protoboard, Attiny85, pantalla OLED, Cables, Boton, Resistencias y un Arduino para programar el Attiny85.</p>
+                            <p class="fs-6 mb-4">Se utilizó el software de Tinkercad, Protoboard, Attiny85, pantalla OLED, Cables, Sensor de sonido, Sensor joystick, Sensor ultrasonico, Sensor infrarrojo pasivo, Resistencias y un Arduino para programar el Attiny85.</p>
                         
                         <p id="desarrollo">
                             <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
                             <p class="fs-6 mb-4">El desarrollo implicó programar mediante el arduino el attiny85,para despues proceder a contectar en el protoboard los componentes,donde la pantalla OLED detecto el estado del boton.</p>
                             <p class="fs-6 mb-4">La programación del Attiny85 implicó el uso de un Arduino como programador, lo que añadió un nivel extra de complejidad y aprendizaje al proyecto. La flexibilidad y la diversidad de aplicaciones del Attiny85 hicieron que cada circuito presentara sus propios desafíos y oportunidades de aprendizaje.</p>
-                     
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/tabla1.PNG" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/tabla2.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/tabla3.png" alt="..." /></figure>
                         <p id="simulacion">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">Las simulaciones se realizaron utilizando Wokwi, lo que permitió visualizar y verificar las conexiones y el código antes de implementar los circuitos. Aunque se tuvieron que hacer unas modificaciones,ya que en este caso no se utilizo un sensor,sino mas bien se utilizo un boton.</p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/simulacionwokwi.png" alt="..." /></figure>
+                            <h1 class="fw-bolder mb-4 mt-5 fs-5">- Simulación -</h1>
+                            <li>Configure cada sensor individualmente en el espacio de trabajo.</li>
+                            <li>Conecte los sensores a un microcontrolador, como Arduino, asegurandome de utilizar los pines adecuados (analógicos o digitales según corresponda).</li>
+                            <li>Una vez conectado, simule el comportamiento del circuito. Por ejemplo, al mover un objeto frente al sensor ultrasónico, debería haber una variación en las distancias registradas. O con el joystick, pued variar sus posiciones debería reflejar cambios en las lecturas analógicas.</li>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/simulacionsensonido.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/simulacionsenjoystick.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/simulacionsenultra.png" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded" width="600px" src="img/simulacionesensorinfrarrojo.png" alt="..." /></figure>
+                        <p id="construccion">
+                            <h1 class="fw-bolder mb-4 mt-5 fs-5">- Construcción -</h1>
+                            <li><strong>Componentes</strong>: Me asegúre de tener todos los componentes necesarios: sensores, microcontrolador, resistencias, cables, placa protoboard o PCB, y fuentes de alimentación.</li>
+                            <li><strong>Conexiones</strong>: Realice las conexiones según el diseño esquemático. Utilice el diagrama de Tinkercad como referencia.</li>
+                            <li><strong>Pruebas</strong>: Al encender, verifique que todos los sensores estén operativos. Ajuste los potenciómetros en sensores como el de sonido y PIR para calibrar la sensibilidad.</li>
+                            <li><strong>Ubicación</strong>: Posicione los sensores adecuadamente. Por ejemplo, el sensor ultrasónico debe tener una vista despejada, y el PIR debe estar orientado hacia el área de detección deseada.</li>
+                            
+                            
                         
+                            
 
-                       
+                        
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Los resultados se obtuvieron mediante la construcción correcta de los circuitos. En total fueron 4 circuitos, utilizando el OLED como principal componente para mostrar los diferentes estados de los sensores. </p>
+                        
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/sensorsonido.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/sensorjoystick.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/sensorultra.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/seninfra.mp4" type="video/mp4">
+                        </video></p></figure>
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
@@ -111,11 +143,11 @@
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">https://wokwi.com/projects/344317868853166675</p>
+                        <p class="fs-6 mb-4">https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html</p>
                         
                         <p id="descargables">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
-                        <p class="fs-6 mb-4">Descargar codigos de arduino: </p>
+                        <p class="fs-6 mb-4">Descargar codigos de arduino:https://drive.google.com/drive/folders/1av_ajmJL5b6DM9WxfvfJhRqvyUSpvqAA?usp=drive_link </p>
 
 
                 </div>
